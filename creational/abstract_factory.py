@@ -7,13 +7,16 @@
 In Java and other languages, the Abstract Factory Pattern serves to provide an interface for
 creating related/dependent objects without need to specify their
 actual class.
+抽象工厂模式是为了提供一个创建一个相关的或者从属的对象的接口，无需特别去实例化一个类。
 
 The idea is to abstract the creation of objects depending on business
 logic, platform choice, etc.
+这个想法是根据业务、平台选择等等来抽象对象的创建
 
 In Python, we interface we use is simply a callable, which is "builtin" interface
 in Python, and in normal circumstances we can simply use the class itself as
 that callable, because classes are first class objects in Python.
+
 
 *What does this example do?
 This particular implementation abstracts the creation of a pet and
